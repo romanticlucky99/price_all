@@ -1,0 +1,6 @@
+Sub FixImages()
+    Dim shp As Shape
+    For Each shp In ActiveSheet.Shapes
+        shp.Placement = xlMoveAndSize
+    Next shp
+End Sub
